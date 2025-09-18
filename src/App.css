@@ -17,19 +17,19 @@ body {
 }
 
 .nav-links {
-  list-style: none;
   display: flex;
+  list-style: none;
   gap: 1.5rem;
+  margin: 0;
+  padding: 0;
 }
 
-.nav-links a {
-  color: #fff;
-  text-decoration: none;
+.nav-links li {
+  cursor: default;
 }
 
 .cart-widget {
   font-size: 1.2rem;
-  cursor: pointer;
 }
 
 .contenedor {
